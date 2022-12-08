@@ -12,9 +12,11 @@ html, body {
     display: flex;
     flex-direction: column;
     border-style: solid;
-    border-width: 4px;
+    border-width: 2px;
     border-color: blue;
+    border-radius: 15px;
     background-color: grey;
     min-width: 30%;
     min-height: 20%;
+    padding: 20px;
 }
