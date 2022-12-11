@@ -7,7 +7,10 @@ html, body {
     align-items: center;
     width: 100vw;
     height: 100vh;
+    background-color: #0093E9;
+background-image: linear-gradient(43deg, #0093E9 4%, #7feeef 30%, #55c5cc 65%, #5adbc7 81%, #ffffff 100%);
 }
+
 .login-box {
     display: flex;
     flex-direction: column;
@@ -51,4 +54,11 @@ button:hover {
     100% {
         background-color: #4791d0;
     }
+}
+.forgotPassword {
+    text-decoration:none;
+    color: #ffffff;
+}
+.forgotPassword:hover {
+    color: hsl(195, 94%, 82%);
 }
