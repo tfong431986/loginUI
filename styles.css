@@ -22,11 +22,12 @@ background-image: linear-gradient(43deg, #0093E9 4%, #7feeef 30%, #55c5cc 65%, #
     background-color: grey;
     background: hsl(195, 94%, 82%) url('pexelsDana.jpeg');
     min-width: 20%;
+    width: 35%;
     min-height: 20%;
     padding: 20px;
     box-shadow:10px 10px 10px hsl(195, 86%, 74%)
 }
-form {
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,18 +35,23 @@ form {
     font-weight:bold;
     color: #ffffff;
 }
-input {
-    padding: 5px;
+.userpw {
+    margin-bottom: 15px;
+}
+.box {
+    padding: 7px;
     border-radius: 5px;
     border-color: transparent;
+    width: 80%;
 }
-button {
+#submit {
     border-radius: 5px;
+    margin-top: 20px;
     color: white;
     background-color: #0f5897;
     padding: 5px 10px 8px 10px;
 }
-button:hover {
+#submit:hover {
     animation-name: background-color;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
@@ -56,7 +62,9 @@ button:hover {
     }
 }
 .forgotPassword {
-    text-decoration:none;
+    text-decoration: none;
+    font-size: 14px;
+    
     color: #ffffff;
 }
 .forgotPassword:hover {
